@@ -12,27 +12,32 @@
     grid-template-columns: 0.8fr 4fr 1fr 3fr;
     gap: 20px;
 }
+
 .nav-logo {
     justify-content: space-evenly;
     display: flex;
 }
-.login-a{
+
+.login-a {
     display: block;
     text-decoration: none;
     color: rgb(62, 62, 62);
-    
+
 }
-.login-a:hover{
+
+.login-a:hover {
     color: orange;
 }
-#login:hover{
+
+#login:hover {
     box-shadow: 0 4px 4px rgb(0 0 0 / 25%), 0 1px 8px 1px rgb(176 176 176 / 26%);
     padding: 10px;
     border-radius: 10px;
 }
+
 .navbar>div {
     height: inherit;
-   
+
 }
 
 .heading-links-list {
@@ -272,10 +277,59 @@
     border: 1px solid rgb(102, 255, 0);
 
 }
-.floating-icon{
+
+.floating-icon {
     display: flex;
     justify-content: space-between;
     position: sticky;
     bottom: 1rem;
     align-self: flex-end;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        grid-template-columns: repeat(1, 1fr);
+        height: 50px;
+        gap: 1px;
+    }
+    .banner-class {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .banner-class-child {
+        /* border: 2px solid rgb(0, 0, 0); */
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+    
+    }
+    .footer-links{
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        
+    }
+
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .banner-class {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .navbar {
+        grid-template-columns: repeat(1, 1fr); 
+        height: 50px;
+        gap: 1px;
+    }
+    .footer-links{
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        
+    }
+
 }
