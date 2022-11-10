@@ -55,17 +55,30 @@ let carouselArr = [
 "https://webstatic.chargebee.com/assets/web/535/images/footer/getaccept.svg",
 
 ]
+let j =0;
+let carousel = document.querySelector('#testimonial-brands')
+let imgnew = document.createElement('img')
+    imgnew.setAttribute('src',carouselArr[0])
+    let imgnew2 = document.createElement('img')
+    imgnew2.setAttribute('src',carouselArr[3])
+    let imgnew3 = document.createElement('img')
+    imgnew3.setAttribute('src',carouselArr[2])
+    carousel.append(imgnew,imgnew2,imgnew3)
+    setInterval(()=>{
+        if(j===carouselArr.length) j=0;
+        let carousel = document.querySelector('#testimonial-brands')
+        let imgggtransition =document.querySelector('#testimonial-brands>img')
+        imgggtransition.classList.add('fadinimges')
+    let imgnew = document.createElement('img')
+    imgnew.setAttribute('src',carouselArr[j])
+    console.log(imgnew);
+    carousel.append(imgnew)
+    
+        // carousel.setAttribute('src',carouselArr[j])
+      
+            j++
 
-setInterval(()=>{
-
-
-    let carousel = document.getElementById('top-carousel')
-    carousel.classList.add('slidecarousel')
-    console.log(carousel);
-    setTimeout(()=>{
-        carousel.classList.remove('sliderlabel')
-    },1000)
-},1000)
+},600)
 
 let i = 0
 setInterval(() => {

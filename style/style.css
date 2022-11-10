@@ -127,7 +127,6 @@
     margin: auto 20px;
     
 }
-.slidecarousel{
-    transition: .5s;
-    padding-left: 100px;
+.fadinimges{
+    transition: 1s;
 }
