@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/style/login.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap"
         rel="stylesheet">
+        <script src="https://kit.fontawesome.com/40841d33c4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,10 +33,10 @@
             <div>
 
                 <form action="">
-                    <input type="Name" name="" id="" placeholder="Enter your Name">
-                    <input type="password" name="" placeholder="Password" id="">
-                    <input type="email" name="" id="" placeholder="Email Address">
-                    <input type="password" name="" placeholder="Password" id="">
+                    <input type="Name"  required name="" id="name" placeholder="Enter your Name">
+                    <input type="email"  required name="" id="email" placeholder="Email Address">
+                    <input type="password"  required name="" placeholder="Password" id="pass">
+                    <input type="password"  required name="" placeholder="Confrim Password" id="cpass">
                 </form>
             </div>
             <div class="formbtn">
@@ -43,7 +44,7 @@
             </div>
             <hr>
             <button class="google">
-                signup with google 
+                <i class="fa-brands fa-google"></i> signup with google 
             </button>
         </div>
         
@@ -64,3 +65,4 @@
 </body>
 
 </html>
+<script src="/js/signup.js"></script>
