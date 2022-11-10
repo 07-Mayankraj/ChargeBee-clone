@@ -77,6 +77,7 @@
 .image-slider>img{
     text-align: center;
     width: 60%;
+    height: 110%;
     rotate: -330deg;
 }
 
@@ -122,11 +123,51 @@
     overflow: hidden;
 }
 #top-carousel>div>img{
-    background-color: rgba(0, 0, 0, 0.51);
-    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.447);
+    padding: 0 10px;
     margin: auto 20px;
+    transition: 1s;
+    border-radius: 10px;
     
 }
-.fadinimges{
-    transition: 1s;
+/* card section */
+.top-cards{
+width: 80%;
+display: flex;
+margin: 50px auto;
+padding: 10px;
+justify-content: space-between;
+}
+.top-card-left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.top-card-right{
+width: 60%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 20px;
+
+}
+.top-card-right>div{
+    padding: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+.top-card-right>div>a{
+    color: #4300a3;
+    margin-top: 50px;
+    display: block;
+    text-align: right;
+}
+.top-card-right>div>p{
+    margin: 20px 0;
+    color: rgb(91, 91, 91);
+}
+.top-card-right>div:hover{
+    margin-left:   1px ;
+    box-shadow: 20px 18px 25px 4px #eef;
+    transition: 0.10s;
+    cursor: pointer;
 }
