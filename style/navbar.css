@@ -111,8 +111,8 @@
 }
 
 #login:hover {
-    box-shadow: 0 4px 4px rgb(0 0 0 / 25%), 0 1px 8px 1px rgb(176 176 176 / 26%);
-    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 5px 20px;
     border-radius: 10px;
 }
 
