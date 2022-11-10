@@ -6,8 +6,11 @@ loginbtn.addEventListener('click',()=>{
     let pass = document.querySelector('#pass').value;
     let cpass = document.querySelector('#cpass').value;
     if(pass !== cpass) alert('Password did not matched')
-    let userArr =[]
+    else{
+        let userArr =[]
     userArr.push(email,pass)
     localStorage.setItem('user-details',JSON.stringify(userArr))
-    console.log(userArr);
+    alert('Account Created redirecting to login page....')
+    window.location.href='login.html';
+    }
 })
