@@ -6,7 +6,6 @@
 
 #container {
   margin: auto;
-  padding-bottom: 100px;
 }
 
 .check {
@@ -275,6 +274,17 @@
   font-size: 1.1rem;
 }
 
+.homepage-feature-container-cards-left>div:nth-child(2){
+  color: grey;
+}
+.homepage-feature-container-cards-left>div:nth-child(3){
+  color: grey;
+}
+.fa-solid{
+  color:#8c00da;
+  margin:10px;
+}
+
 .atagtext:hover {
   transition: 0.25s;
   color: blueviolet;
@@ -331,4 +341,6 @@
 .homepage-bottom-states {
   width: 80%;
   margin: 10px auto;
+  
 }
+
