@@ -19,6 +19,7 @@
     padding: 50px 0;
     position: absolute;
     border-radius: 10px;
+    background-color: white;
     width: 100%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     top: 120%;
@@ -30,6 +31,13 @@
     transition: 0.5s;
     
 }
+.heading-links-list>li:hover .mega-menu {
+    top: 100%;
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+
+}
 
 /* megameu */
 .mega-menu-items{
@@ -39,6 +47,7 @@
     padding: 20px 50px;
     width: 100%;
 }
+
 
 
 .mega-menu-items>div {
@@ -71,12 +80,7 @@
     padding-left: 10px;
 }
 
-.heading-links-list>li:hover .mega-menu {
-    top: 100%;
-    opacity: 1;
-    visibility: visible;
 
-}
 #resources-grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -97,6 +101,7 @@
 .nav-logo {
     justify-content: space-evenly;
     display: flex;
+    cursor: pointer;
 }
 
 .login-a {
@@ -111,8 +116,8 @@
 }
 
 #login:hover {
-    box-shadow: 0 4px 4px rgb(0 0 0 / 25%), 0 1px 8px 1px rgb(176 176 176 / 26%);
-    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 5px 20px;
     border-radius: 10px;
 }
 
@@ -326,6 +331,7 @@
 
 .footer-links>div>ul li:hover {
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .footer-links h4 {
@@ -412,7 +418,7 @@
         height: 50px;
         gap: 1px;
     }
-
+  
     .footer-links {
         flex-direction: column;
         margin: auto;
