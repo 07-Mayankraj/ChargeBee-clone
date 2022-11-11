@@ -1,6 +1,9 @@
 
 // adding home link to logo
 document.querySelector('.navbar').addEventListener('click', () => window.location.href = 'index.html')
+document.querySelector('.sec-buttons').addEventListener('click', () => window.location.href = 'https://www.chargebee.com/schedule-a-demo/?ref=heroCTA')
+// document.querySelector('.sec-sign-btn').addEventListener('click', () => window.location.href = 'signup.html')
+
 
 // topsection image slide
 let imgArr = [

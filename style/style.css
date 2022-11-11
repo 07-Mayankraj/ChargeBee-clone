@@ -246,6 +246,18 @@
 #brandcarousoltimedealay {
   transition: all 1s;
 }
+.nobordera{
+  text-decoration: none;
+  color: black;
+}
+.nobordera:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.noborderawhit{
+  text-decoration: none;
+  color: white;
+}
 
 /* card section */
 .top-cards {
