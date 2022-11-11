@@ -58,3 +58,8 @@ setInterval(() => {
 }, 2000)
 
 
+// login name change 
+let userArr =  JSON.parse(localStorage.getItem('user-details'))
+console.log(userArr);
+let username = document.querySelector('.login-a').innerText = userArr[2]
+ 
