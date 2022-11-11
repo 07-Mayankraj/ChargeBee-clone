@@ -1,3 +1,4 @@
+document.querySelector('.nav-logo').addEventListener('click', () => window.location.href = 'index.html')
 // login and signup functionality
 let loginbtn = document.querySelector('.formbtn')
 loginbtn.addEventListener('click',()=>{
