@@ -6,27 +6,28 @@ document.querySelector('.navbar').addEventListener('click', () => window.locatio
 let imgArr = [
     {
         image: 'https://webstatic.chargebee.com/assets/web/535/images/home/coc/customers/jose-bolanos.webp',
-        imga_name: 'Antoine Louiset,CTO  Yousign',
+        imga_name: 'José Bolaños CTO - Slidebean',
         paratext: 'The subscription management platform that enabled Slidebean to slide into 30+ countries.'
     },
     {
         image: 'https://webstatic.chargebee.com/assets/web/535/images/home/coc/customers/antoine-louiset.webp',
-        imga_name: 'Antoine Louiset,CTO  Yousign',
+        imga_name: 'Louiset,CFO Yousign',
         paratext: 'The revenue engine that powered MakeSpace to launch a B2B model overnight.'
     },
-    {
-        image: 'https://webstatic.chargebee.com/assets/web/535/images/home/coc/customers/debbie-barrafato.webp',
-        imga_name: 'Rahul Gadndhi,CEO marketplace',
-        paratext: 'The infrastructure that allows Rise Vision to ask "What Does This Make Possible?"'
-    },
+    
     {
         image: 'https://webstatic.chargebee.com/assets/web/535/images/home/coc/customers/paul-kapsner.webp',
         imga_name: 'debbie barfellow,CEO marketplace',
         paratext: 'The infrastructure that allows Rise Vision to ask "What Does This Make Possible?"'
     },
     {
+        image: 'https://webstatic.chargebee.com/assets/web/535/images/home/coc/customers/debbie-barrafato.webp',
+        imga_name: 'ebbie bndhi,CTO Cloud services',
+        paratext: 'The infrastructure that allows Rise Vision to ask "What Does This Make Possible?"'
+    },
+    {
         image: 'https://webstatic.chargebee.com/assets/web/535/images/home/coc/customers/rahul-gandhi.webp',
-        imga_name: 'debbie barfellow,CEO sales',
+        imga_name: 'debbie,CEO sales',
         paratext: 'The billing platform that gives Superfoods the freedom to test, iterate, and roll-back.'
     },
 ]

@@ -17,10 +17,9 @@
 
 /* top most section */
 .homepage-mid-top {
-  margin: 50px auto;
+  margin: 50px auto 100px ;
   padding: 50px;
   width: 80%;
-  border: 2px dodgerblue solid;
 }
 
 /* section one slider images */
@@ -68,7 +67,7 @@
   align-items: flex-end;
   rotate: -330deg;
   flex-wrap: wrap;
-  align-content: flex-end;
+  align-content: center;
   justify-content: center;
 }
 
@@ -238,6 +237,7 @@
 /* homepage-main-statics */
 .homepage-feature-container {
   width: 100%;
+  margin-top: 10%;
 }
 
 .homepage-feature-container-heading {
@@ -328,9 +328,7 @@
   margin: 20px 0;
 }
 
-.test {
+.homepage-bottom-states {
   width: 80%;
-  height: 400px;
   margin: 10px auto;
-  border: 2px solid red;
 }
