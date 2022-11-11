@@ -11,7 +11,10 @@
 }
 
 #navbar>div>img {
-    width: 20%;
+    width: 30%;
+}
+#navbar>div>img:hover {
+    cursor: pointer;
 }
 
 #login-box {

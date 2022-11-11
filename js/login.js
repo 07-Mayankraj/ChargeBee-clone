@@ -15,3 +15,5 @@ loginbtn.addEventListener('click',()=>{
     }
     console.log(userArr);
 })
+
+document.querySelector('.nav-logo').addEventListener('click', () => window.location.href = 'index.html')
