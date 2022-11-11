@@ -78,8 +78,8 @@
 }
 
 .sec-buttons {
-  padding: 10px;
-  width: 30%;
+  padding: 11px 30px;
+  border: 1px solid grey;
   border-radius: 40px;
   color: white;
   background-image: linear-gradient(
@@ -119,11 +119,33 @@
     #9e00e9,
     #a700f1
   );
+  
 }
 
 .sec-sign-btn {
-  padding: 10px;
+  padding: 10px 30px;
   border-radius: 40px;
+  border: 1px solid grey;
+  transition: 0.5s;
+}
+.sec-sign-btn:hover{
+  background-image: linear-gradient(
+    to right bottom,
+    #4300a3,
+    #4d00aa,
+    #5700b1,
+    #6000b7,
+    #6a00be,
+    #7200c5,
+    #7b00cb,
+    #8300d2,
+    #8c00da,
+    #9500e2,
+    #9e00e9,
+    #a700f1
+  );
+  border: none;
+  color: white;
 }
 
 /* slider without js */
