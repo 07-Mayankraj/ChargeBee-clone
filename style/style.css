@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 #container {
@@ -36,16 +37,7 @@
     justify-content: center;
 
 }
-.slider>label{
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 5px;
-    border: 2px solid #d4d4e8;
-    transition: .3s;
-    margin: 5px 0;
-}
+   
 .section-1-heading{
     font-size: 1.2rem;
     width: 30%;
@@ -101,17 +93,31 @@
     padding: 10px;    
     border-radius: 40px;
 }
-
-
-.sliderlabel{
-    width: 100px;
-    background-image: linear-gradient(to right bottom,#4300a3,#4d00aa,#5700b1,#6000b7,#6a00be,#7200c5,#7b00cb,#8300d2,#8c00da,#9500e2,#9e00e9,#a700f1);
-    box-shadow: 20px 18px 25px 4px #eef;
+/* slider without js */
+.sliderlabelpre{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #d4d4e8;
     transition: 0.5s;
-    border-radius: 10px;
-    height: 20px;
-    border: none;
+    margin: 5px 0;
+    opacity: 80%;
     
+    
+}
+/* slider  js */
+.sliderlabel{
+    width: 20px;
+    border: none;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right bottom,#4300a3,#4d00aa,#5700b1,#6000b7,#6a00be,#7200c5,#7b00cb,#8300d2,#8c00da,#9500e2,#9e00e9,#a700f1);
+    transition: 0.5s;
+    box-shadow: #4300a3 0px 8px 24px;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
 
 }
 
@@ -129,6 +135,9 @@
     transition: 1s;
     border-radius: 10px;
     
+}
+#brandcarousoltimedealay{
+    transition: all 1s;
 }
 /* card section */
 .top-cards{

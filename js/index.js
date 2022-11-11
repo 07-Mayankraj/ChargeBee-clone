@@ -70,6 +70,7 @@ let imgnew = document.createElement('img')
         let carousel = document.querySelector('#testimonial-brands')
         let imgggtransition =document.querySelector('#testimonial-brands>img')
         let imgnew = document.createElement('img')
+        imgnew.className = 'brandcarousoltimedealay';
     imgnew.setAttribute('src',carouselArr[j])
     carousel.append(imgnew)
     
