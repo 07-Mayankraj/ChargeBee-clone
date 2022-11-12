@@ -423,15 +423,183 @@
   margin: auto;
 }
 
-.bc {
+
+
+/* homepage top section heading  */
+
+.customer-section-1 {
+  background-color: #f0f0f5;
+  
+  padding: 50px 100px 20px 100px;
+}
+
+
+.customer-section-1-1 {
+  margin: auto;
+  width: 100%;
+  height: 500px;
+  padding-left: 20px;
+}
+
+.cusotmer-section-1-heading{
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 30%;
+  padding: 40px;
+  line-height: 2;
+}
+
+.atagorange {
+  color: orangered;
+  font-size: 1.1rem;
+  text-decoration: none;
+
+}
+
+.atagnone {
+  font-size: 1.1rem;
+  text-decoration: none;
+
+}
+
+.signupbtncu {
+  padding: 15px 20px;
+  border: 2px solid rgba(255, 68, 0, 0.728);
+  margin: 0 20px;
+  transition: 0.2s;
+
+}
+
+.signupbtncu:hover {
+  background-color: rgba(255, 68, 0, 0.698);
+  color: white;
+}
+
+.divbtnsofcustomers {
+  width: 30%;
+  align-items: baseline;
+  display: flex;
+  padding-left: 20px;
+
+
+}
+
+/* sectionn-2 */
+.section-2 {
+  margin: 60px auto;
+}
+
+.section-2-main {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 80%;
+
+}
+
+.section-2-left {
+  margin: auto;
+  width: 40%;
+}
+
+.section-2-right {
+  width: 40%;
+
+}
+
+.para-section-2 {
+
+  width: 70%;
+  font-size: 1.2rem;
+  color: #888888;
+  padding: 30px;
+}
+
+.section-2-right>img {
+  max-width: 540px;
+  margin-top: -400px;
+  cursor: pointer;
+
+}
+
+.section-2-img>img {
+  padding-left: 30px;
+  width: 40%;
+}
+
+/* secion-3 */
+
+.section-3 {
+  margin: 180px auto;
+
+}
+
+.test {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.test>div {
+  width: 15%;
+}
+
+.test>div>img {
+  width: 100%;
+}
+
+/* section-4 copied from secion 2 */
+.section-4 {
+  margin: 100px auto;
+}
+
+.section-4-main {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 60%;
+  box-shadow: 0 1px 1px 0 rgb(90 122 190 / 10%), 0 10px 20px 0 rgb(90 122 190 / 20%);
+  
+  
+}
+
+.section-4-main>div:first-child {
+  width: 60%;
+}
+
+.section-4-main>div:first-child>img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  width: 100%;
+  height: 100%;
+}
+
+.section-4-left {
+  width: 30%;
+  margin: auto;
+}
+/* youtube-vid */
+.section-6{
+  margin:100px auto;
+  
+}
+.youtube-vid{
+  display: block;
+  margin: auto;
+}
+/* sectoni -7 other code is on topsection */
+
+.section-7{
   background-color: #f0f0f5;
 }
+
 
 /* ----------------------customer's page------------------------ */
 .customer-hm-page {
   width: 50%;
   margin: auto auto 300px auto;
-  border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -473,85 +641,4 @@
 
 .paddingformaindiv {
   padding: 40px;
-}
-
-/* homepage top secion heading  */
-
-.customer-section-1 {
-  background-color: #f0f0f5;
-  padding: 10px 100px;
-}
-
-.customer-section-1-1 {
-  margin: auto;
-  width: 100%;
-  height: 500px;
-  padding-left: 20px;
-}
-
-.section-1-heading {
-  width: 40%;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-top: 10px;
-  
-}
-
-.atagorange {
-  color: orangered;
-  font-weight: bold;
-  font-size: 1.1rem;
-  text-decoration: none;
-  
-}
-
-.atagnone {
-  font-size: 1.1rem;
-  text-decoration: none;
-
-}
-
-.signupbtncu {
-  padding: 15px 20px;
-  border: 2px solid rgba(255, 68, 0, 0.728);
-  margin : 0 20px;
-  transition: 0.2s;
-
-}
-.signupbtncu:hover{
-  background-color: rgba(255, 68, 0, 0.698);
-  color: white;
-}
-
-.divbtnsofcustomers {
-  width: 30%;
-  align-items: baseline;
-  display: flex;
-  padding-left: 20px;
-
-
-}
-/* sectionn-2 */
-.section-2{
-  margin: 60px auto;
-}
-.section-2-main{
-  display: flex;
-  justify-content: space-between;
-  margin:  auto;
-  width: 80%;
-}
-.section-2-left{
-  margin:auto;
-  width: 40%;
-}
-.section-2-right{
-  width: 40%;
-  
-}
-.section-2-right>img{
-  max-width: 540px;
-  margin-top: -380px;
-  cursor: pointer;
-  
 }
