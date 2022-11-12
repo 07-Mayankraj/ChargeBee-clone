@@ -417,22 +417,42 @@
   
 }
 
-
-
+/* ------------------customers top sec --------------*/
+.mid-customer-top{
+  width: 90%;
+  margin: auto;
+}
+.bc{
+  background-color: #f0f0f5;
+}
 /* ----------------------customer's page------------------------ */
 .customer-hm-page{
   width: 50%;
-  margin: auto;
+  margin:  auto auto 300px auto;
   border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 20px;
-  padding: 20px;
+  padding:100px ;
+}
+.mid-customer-sec{
+  background-color: #f0f0f5;
 }
 .customer-hm-page-childs{
+  background-color: white;
   width: 100%;
+  height: 250px;
   margin: auto;
-  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(180 186 191 / 20%);
+  transition: box-shadow .2s ease-out;
+}
+.customer-hm-page-childs:hover{
+  
+  box-shadow: 0 1px 1px 0 rgb(90 122 190 / 10%), 0 10px 20px 0 rgb(90 122 190 / 20%);
+  
 }
 .atagblack{
   color: black;
@@ -441,10 +461,11 @@
 .customer-hm-page-childs-arrow{
   text-align: end;
   display: block;
+  color: blue;
 }
 .customer-hm-page-childs-img{
-  width: 100%;
+  width: 50%;
 }
 .paddingformaindiv{
-  padding: 20px;
+  padding: 40px;
 }
