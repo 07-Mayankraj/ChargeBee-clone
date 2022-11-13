@@ -642,3 +642,12 @@
 .paddingformaindiv {
   padding: 40px;
 }
+
+.bot-chat-box{
+  display: flex;
+  flex-direction: column-reverse;
+}
+#changeicon{
+  width: 30%;
+  margin: auto;
+}

@@ -64,5 +64,25 @@ setInterval(() => {
 // login name change 
 let userArr =  JSON.parse(localStorage.getItem('user-details'))
 console.log(userArr);
-let username = document.querySelector('.login-a').innerText = userArr[2]
+let username = document.querySelector('.login-a').innerText = "Hey, "+userArr[2]
  
+// chat box
+
+
+setTimeout(() =>{
+    let chatdiv = document.createElement('div')
+    let img1 = document.createElement('img')
+    img1.setAttribute('src',"/images/chatbox.PNG")
+    chatdiv.id = 'remove'
+    document.querySelector('.bot-chat-box-icon').id = 'changeicon';
+    chatdiv.append(img1)
+    document.querySelector('.bot-chat-box').append(chatdiv) },2000);
+
+setTimeout(()=>{
+    document.querySelector(".bot-chat-box").addEventListener('click',()=>{
+        document.querySelector('#remove').innerHTML=''
+        document.querySelector('.bot-chat-box-icon').id = '';
+    })
+    document.querySelector('#remove').innerHTML=''
+    document.querySelector('.bot-chat-box-icon').id = '';
+},5000);

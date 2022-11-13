@@ -7,12 +7,13 @@ loginbtn.addEventListener('click',()=>{
     let pass = document.querySelector('#pass').value;
     let cpass = document.querySelector('#cpass').value;
     if(pass !== cpass) alert('Password did not matched')
-    if(pass == ''||email==''||name==''||cpass=='') alert('Fill details')
+    if(pass == ''||email==''||name==''||cpass=='') alert('❗❗ Fill details')
     else{
         let userArr =[]
         userArr.push(email,pass,name)
         localStorage.setItem('user-details',JSON.stringify(userArr))
-        alert('Account Created redirecting to login page....')
+        alert('Account Created ✔')
+        alert(' ⏱ redirecting to login page. . . .')
         window.location.href='login.html';
     }
 })

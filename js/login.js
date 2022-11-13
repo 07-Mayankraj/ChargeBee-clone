@@ -5,12 +5,12 @@ loginbtn.addEventListener('click',()=>{
     let email = document.querySelector('#email').value;
     let pass = document.querySelector('#pass').value;
     if(email!==userArr[0]){
-        alert('User Not found')
+        alert('😟 User Not found')
     }
     else if(pass!==userArr[1]){
-        alert('Wrong password')
+        alert('❌ Wrong password')
     }else {
-        alert('Loged In ');
+        alert('✔ Logged In success 😊 ');
     window.location.href='index.html';
     }
     console.log(userArr);
