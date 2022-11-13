@@ -7,5 +7,5 @@ document.querySelector('.navbar').addEventListener('click', () => window.locatio
 // login name change 
 let userArr =  JSON.parse(localStorage.getItem('user-details'))
 console.log(userArr);
-let username = document.querySelector('.login-a').innerText = userArr[2]
+let username = document.querySelector('.login-a').innerText ="Hey, " + userArr[2]
  

@@ -76,7 +76,7 @@ setTimeout(() =>{
     chatdiv.id = 'remove'
     document.querySelector('.bot-chat-box-icon').id = 'changeicon';
     chatdiv.append(img1)
-    document.querySelector('.bot-chat-box').append(chatdiv) },2000);
+    document.querySelector('.bot-chat-box').append(chatdiv) },5000);
 
 setTimeout(()=>{
     document.querySelector(".bot-chat-box").addEventListener('click',()=>{
@@ -85,4 +85,4 @@ setTimeout(()=>{
     })
     document.querySelector('#remove').innerHTML=''
     document.querySelector('.bot-chat-box-icon').id = '';
-},5000);
+},10000);
